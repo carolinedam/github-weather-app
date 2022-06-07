@@ -42,6 +42,24 @@ li {
 .weather-app {
   border: 1px solid #bdc1c6;
   border-radius: 10px;
-
   padding: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  margin-top: -25px;
+  height: 84px;
+  width: 84px;
+}
+
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
 }
