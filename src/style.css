@@ -2,14 +2,6 @@ body {
   font-family: Roboto, arial, sans-serif;
 }
 
-.weather-app {
-  border: 1px solid #bdc1c6;
-  border-radius: 10px;
-  margin: 0 auto;
-  max-width: 600px;
-  padding: 20px;
-}
-
 h1 {
   color: rgb(189, 193, 198);
   display: block;
@@ -32,4 +24,12 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.weather-app {
+  border: 1px solid #bdc1c6;
+  border-radius: 10px;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
 }
