@@ -16,6 +16,10 @@ ul {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 li {
   color: rgb(154, 160, 166);
   font-size: 16px;
@@ -70,8 +74,4 @@ li::first-letter {
 .weather-temperature .active {
   color: rgb(33, 33, 33);
   cursor: default;
-}
-
-.weather-temperature .active:hover {
-  text-decoration: none;
 }
